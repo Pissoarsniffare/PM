@@ -1,0 +1,84 @@
+\documentclass[11p]{article}
+% Packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[swedish]{babel}
+\usepackage[
+    backend=biber,
+    style=authoryear-ibid,
+    sorting=ynt
+]{biblatex}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+%Källor
+\addbibresource{mall.bib}
+\graphicspath{ {./images/} }
+
+\title{PMmall \\ \small Fysik 1}
+\author{Samuel Viglundsson}
+\date{\today}
+
+\begin{document}
+
+    \begin{titlepage}
+        \begin{center}
+            \vspace*{1cm}
+
+            \Huge
+            \textbf{Kärnkraft}
+
+            \vspace{0.5cm}
+            \LARGE
+            Kärnkraftverk
+
+            \vspace{1.5cm}
+
+            \textbf{Samuel Viglundsson}
+
+            \vfill
+
+            PM energiförsörjning \\
+            Fysik 1
+
+            \vspace{0.8cm}
+
+            \includegraphics[width=0.4\textwidth]{NTI Gymnasiet_Symbol_print_svart.png}
+
+            \Large
+            Teknikprogrammet\\
+            NTI Gymnasiet\\
+            Umeå\\
+            \today
+
+        \end{center}
+    \end{titlepage}
+% Om arbetet är långt har det en innehållsförteckning, annars kan den utelämnas
+
+    \newpage
+    \section{Inledning}
+    Under många år har kärnkraft väckt het debatt på grund av dess polariserande effekter. Å ena sidan hyllas det för sin koldioxidfria elproduktion, medan det å andra sidan fruktas för dess farliga konsekvenser för miljön och allmänhetens välbefinnande.
+
+    \section{frågeställningar}
+    \begin{enumerate}
+        \item Hur fungerar kärnkraftverk?
+        \item Hur påverkar kärnkraftverk miljön?
+        \item Hur påverkar kärnkraftverk ekonomiskt?
+    \end{enumerate}
+
+
+    \section{Hur fungerar kärnkraftverk}
+    Elproduktion i kärnkraftverk sker genom fission. Under denna process bryts atomkärnor i mindre fragment efter att ha kolliderat med neutroner. Den resulterande värmeenergin används sedan för att generera ånga, som används för att rotera en turbin som ytterligare driver en generator för elproduktion. För att få detta att hända är tryckvattenreaktorer (PWR) och kokvattenreaktorer (BWR) de mest använda reaktortyperna. Dessa reaktorer använder kärnbränsle, vanligtvis uran, som initierar fissionen och kontrollerar reaktionshastigheten med hjälp av styrstavar.\parencite{Nationalencyklopedin}
+
+    \section{Miljöpåverkan av kärnkraft}
+    Även om kärnkraften inte släpper ut någon koldioxid under drift har den andra potentiella miljökonsekvenser. En av de största utmaningarna är hanteringen av kärnavfall, som förblir radioaktivt under lång tid. Kärnavfall ska förvaras säkert för att minimera risken för läckage och negativ påverkan på miljön. En annan oro är risken för kärnkraftsolyckor som Fukushima och Tjernobyl, som kan få allvarliga konsekvenser för människor och miljö.\parencite{Naturvårdsverket}
+
+    \section{Ekonomisk påverkan}
+    Kärnkraftverk har höga investeringskostnader för konstruktion och underhåll, men på grund av den stora kraftproduktionen kan de bli lönsamma på lång sikt. Kärnkraft har relativt låga driftskostnader jämfört med fossila bränslen. Men kostnaderna för att avveckla kärnkraftverk i slutet av sin livslängd och för att hantera kärnavfall kan också vara höga.\parencite{energiforsk}
+
+    \section{Slutsatser}
+    Sammanfattningsvis har kärkraftverk fördelar som en koldioxidfri, pålitlig och effektiv energikälla. Med fortsatt forskning och förbättringar inom säkerhet och avfallshantering kan kärnkraft spela en viktig roll för att möta energibehoven i en växande värld samtidigt som klimatförändringarna bekämpas. Det är viktigt att fortsätta att övervaka och reglera kärnkraftsindustrin för att säkerställa säkerheten och minimera risken för olyckor.
+
+
+    \printbibliography
+
+\end{document}
